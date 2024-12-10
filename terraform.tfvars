@@ -1,0 +1,10 @@
+region                = "us-east-1"
+ami_id                = "ami-0c55b159cbfafe1f0"
+instance_type         = "t2.micro"
+bucket_name           = "bucket-name"
+dynamodb_table_name   = "table-name"
+vpc_cidr_block        = "10.0.0.0/16"
+subnet_cidr_blocks    = ["10.0.1.0/24"]
+aws_access_key        = "your-access-key"
+aws_secret_key        = "your-secret-key"
+aws_session_token     = "your-session-token"
